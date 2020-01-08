@@ -79,7 +79,7 @@ class App extends React.Component {
           this.handleSubmit(e);
         }}>
           <input id="name" value={this.state.formData.name} type="text" name="name" placeholder="Name..." onChange={this.handleChange}/>
-          <input id="file" key={this.state.picture} type="file" name="picture" onChange={this.onChange}/>
+          <input id="file" key={this.state.picture} type="file"  name="picture" onChange={this.onChange}/>
             <input type="submit" id="button" name="" value="Submit"/>
         </form>
 
